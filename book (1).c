@@ -348,7 +348,7 @@ void borrowBook() {
 
 void returnBook() {
     if (trans_count >= MAX_TRANS) {
-        printf("Error: Transaction limit reached. Contact Admin.\n");
+        printf("Error: Transaction limit reached.\n");
         return;
     }
 
